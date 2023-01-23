@@ -24,9 +24,9 @@ void evenNumber(int[] arr)
         if (arr[i]%2 == 0 )
         {
             count=count+1;
-            Console.WriteLine(count);
         }
     }
+    Console.WriteLine($" четных чисел - {count}");
 }
 int[] massive= RandomArray(20,100,1000);
 Console.WriteLine(string.Join(",",massive));
